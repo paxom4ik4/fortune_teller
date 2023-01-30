@@ -630,9 +630,9 @@ body {
     .photo_4 {
         left: 50%;
         transform: translateX(-50%);
-        top: 85px;
-        width: 74%;
-        height: min-content;
+        top: 76px;
+        width: 75%;
+        height: fit-content;
         z-index: 1;
     }
 
@@ -792,7 +792,7 @@ body {
 
     .photo_4 {
         width: 75%;
-        height: min-content;
+        height: fit-content;
         top: 52px;
     }
 
