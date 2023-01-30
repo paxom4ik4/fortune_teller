@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
 body {
     font-family: "Love", serif !important;
     background: linear-gradient(165.11deg, #070026 0%, #0A0033 100.27%);
@@ -80,6 +85,7 @@ body {
     position: absolute;
     top: 20px;
     left: 50%;
+    z-index: 10;
     transform: translateX(-50%);
 }
 
@@ -90,6 +96,7 @@ body {
 }
 
 .contacts_content_items {
+    z-index: 20;
     font-size: 32px;
     margin: 12px 0;
 }
@@ -632,7 +639,7 @@ body {
         transform: translateX(-50%);
         top: 76px;
         width: 75%;
-        height: fit-content;
+        height: auto;
         z-index: 1;
     }
 
@@ -792,7 +799,6 @@ body {
 
     .photo_4 {
         width: 75%;
-        height: fit-content;
         top: 52px;
     }
 
@@ -814,6 +820,10 @@ body {
         margin: 0;
     }
 
+    .contacts_content_links img {
+        margin: 0 4px;
+    }
+
     .contacts_content_links {
         margin-top: 12px;
         width: 50%;
@@ -822,15 +832,16 @@ body {
     }
 
     .contacts_content_links a {
-        width: 50%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .contacts_text img {
+        width: 95%;
         margin: 0;
-        bottom: 20% !important;
+        bottom: 18% !important;
     }
 
     .contacts_footer {
